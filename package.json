@@ -4,6 +4,7 @@
   "description": "Weather application with node.js and express.js",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "div":"node -r dotenv/config src/app.js"
   },
