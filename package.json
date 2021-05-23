@@ -1,0 +1,30 @@
+{
+  "name": "weatherapplication",
+  "version": "1.0.0",
+  "description": "Weather application with node.js and express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "div":"node -r dotenv/config src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayachandragoteti/WeatherApplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayachandragoteti/WeatherApplication/issues"
+  },
+  "homepage": "https://github.com/jayachandragoteti/WeatherApplication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
